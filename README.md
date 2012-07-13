@@ -1,8 +1,8 @@
 This is a giter8 template for sbt 0.11.x (or later) projects in the style that
 I (inkytonik) commonly use.
 
-See (`inkytonik/kiama.g8`)[https://github.com/inkytonik/kiama.g8] and
-(`inkytonik/kiama-rats.g8`)[https://github.com/inkytonik/kiama-rats.g8] for
+See [`inkytonik/kiama.g8`](https://github.com/inkytonik/kiama.g8) and
+[`inkytonik/kiama-rats.g8`](https://github.com/inkytonik/kiama-rats.g8) for
 variants that use the [Kiama language processing library](http://kiama.googlecode.com).
 
 ### Properties
