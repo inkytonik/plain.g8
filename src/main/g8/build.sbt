@@ -25,7 +25,7 @@ parallelExecution in Test := false
 libraryDependencies ++=
     Seq (
         "junit" % "junit" % "4.10" % "test",
-        "org.scalatest" %% "scalatest" % "1.7.1" % "test"
+        "org.scalatest" %% "scalatest" % "1.8" % "test"
     )
 
 resolvers += "Sonatype OSS Snapshots Repository" at
