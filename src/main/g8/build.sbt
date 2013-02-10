@@ -24,8 +24,8 @@ parallelExecution in Test := false
 
 libraryDependencies ++=
     Seq (
-        "junit" % "junit" % "4.10" % "test",
-        "org.scalatest" %% "scalatest" % "1.8" % "test"
+        "junit" % "junit" % "4.11" % "test",
+        "org.scalatest" %% "scalatest" % "1.9.1" % "test"
     )
 
 resolvers ++= Seq (
