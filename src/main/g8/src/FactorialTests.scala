@@ -12,23 +12,23 @@ class FactorialTests extends FunSuite {
     import Factorial.factorial
 
     test ("factorial zero is one") {
-        expect (1) (factorial (0))
+        expectResult (1) (factorial (0))
     }
 
     test ("factorial one is one") {
-        expect (1) (factorial (1))
+        expectResult (1) (factorial (1))
     }
 
     test ("factorial two is two") {
-        expect (2) (factorial (2))
+        expectResult (2) (factorial (2))
     }
 
     test ("factorial three is six") {
-        expect (6) (factorial (3))
+        expectResult (6) (factorial (3))
     }
 
     test ("factorial four is twenty four") {
-        expect (24) (factorial (4))
+        expectResult (24) (factorial (4))
     }
 
 }
