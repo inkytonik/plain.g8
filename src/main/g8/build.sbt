@@ -1,18 +1,18 @@
-name := "$name$"
+name := "project"
 
-version := "$version$"
+version := "0.1.0-SNAPSHOT"
 
-organization := "$organization$"
+organization := "myorg"
 
 // Scala compiler settings
 
-scalaVersion := "$scalaversion$"
+scalaVersion := "2.10.4"
 
 scalacOptions ++= Seq ("-deprecation", "-feature", "-unchecked")
 
 // Interactive settings
 
-logLevel := Level.Warn
+logLevel := Level.Info
 
 shellPrompt <<= (name, version) { (n, v) => _ => n + " " + v + "> " }
 
@@ -25,7 +25,7 @@ parallelExecution in Test := false
 libraryDependencies ++=
     Seq (
         "junit" % "junit" % "4.11" % "test",
-        "org.scalatest" %% "scalatest" % "2.0.0" % "test"
+        "org.scalatest" %% "scalatest" % "2.0" % "test"
     )
 
 resolvers ++= Seq (
