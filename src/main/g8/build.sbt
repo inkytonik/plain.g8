@@ -1,12 +1,12 @@
-name := "project"
+name := "$name$"
 
-version := "0.1.0-SNAPSHOT"
+version := "$version$"
 
-organization := "myorg"
+organization := "$organization$"
 
 // Scala compiler settings
 
-scalaVersion := "2.10.4"
+scalaVersion := "$scalaversion$"
 
 scalacOptions ++= Seq ("-deprecation", "-feature", "-unchecked")
 
