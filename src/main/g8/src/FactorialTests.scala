@@ -1,13 +1,9 @@
-import org.junit.runner.RunWith
-import org.scalatest.FunSuite
-import org.scalatest.junit.JUnitRunner
-import org.scalatest.prop.Checkers
+import org.scalatest.FunSuiteLike
 
 /**
  * Tests of the factorial function.
  */
-@RunWith(classOf[JUnitRunner])
-class FactorialTests extends FunSuite {
+class FactorialTests extends FunSuiteLike {
 
     import Factorial.factorial
 
