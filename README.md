@@ -47,3 +47,6 @@ Run the generated project as follows:
 
 where `$organization$` and `$name$` are the values you entered when
 running the `g8` command.
+
+You can also use the `test` command to run some simple tests of the
+Factorial implementation using ScalaTest.
