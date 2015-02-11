@@ -1,4 +1,4 @@
-This is a giter8 template for sbt 0.11.x (or later) projects in the style that
+This is a giter8 template for sbt 0.13.x projects in the style that
 I (inkytonik) commonly use.
 
 See [`inkytonik/kiama.g8`](https://github.com/inkytonik/kiama.g8) and
@@ -28,7 +28,7 @@ variants that use the [Kiama language processing library](http://kiama.googlecod
 ### Usage
 
 Install [giter8 (g8)](http://github.com/n8han/giter8#readme) and [sbt
-0.11.x](https://github.com/harrah/xsbt/wiki/Setup) (or later).
+0.13.x](http://www.scala-sbt.org).
 
 In a shell run the following:
 
