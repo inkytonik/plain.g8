@@ -24,7 +24,7 @@ parallelExecution in Test := false
 
 libraryDependencies ++=
     Seq (
-        "org.scalatest" %% "scalatest" % "2.2.4" % "test"
+        "org.scalatest" %% "scalatest" % "2.2.5" % "test"
     )
 
 resolvers ++= Seq (
@@ -66,4 +66,3 @@ unmanagedResources in Compile := Seq ()
 unmanagedResources in Test <<= (scalaSource in Test) map { s => {
     (s ** (-"*.scala" && -HiddenFileFilter)).get
 }}
-
