@@ -27,10 +27,13 @@ variants that use the [Kiama language processing library](http://kiama.googlecod
 
 ### Usage
 
-Install [giter8 (g8)](http://github.com/n8han/giter8#readme) and [sbt
-0.13.x](http://www.scala-sbt.org).
+Install [sbt 0.13.x](http://www.scala-sbt.org).
 
-In a shell run the following:
+If using sbt 0.13.13 or above:
+
+    sbt new inkytonik/plain.g8
+
+Or alternatively, install [giter8 (g8)](http://github.com/n8han/giter8#readme) and in a shell run the following:
 
     g8 inkytonik/plain
 
