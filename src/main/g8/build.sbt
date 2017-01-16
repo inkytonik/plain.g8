@@ -14,7 +14,11 @@ scalacOptions ++= Seq ("-deprecation", "-feature", "-unchecked")
 
 logLevel := Level.Info
 
-shellPrompt <<= (name, version) { (n, v) => _ => n + " " + v + "> " }
+shellPrompt in ThisBuild := {
+    state =>
+        Project.extract(state).currentRef.project + " " + version.value +
+            " " + scalaVersion.value + "> "
+}
 
 // Dependencies
 
