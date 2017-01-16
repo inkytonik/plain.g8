@@ -15,11 +15,7 @@ variants that use the [Kiama language processing library](http://kiama.googlecod
 
 * no project sub-directory
 
-* sources and resources located directly under `src`
-
 * stub `Main` object with a dummy `main` method
-
-* tests located with sources with suffix `Tests.scala`
 
 * Mercurial `.hgignore` file
 
