@@ -1,9 +1,9 @@
-import org.scalatest.FunSuiteLike
+import org.scalatest.funsuite.AnyFunSuiteLike
 
 /**
  * Tests of the factorial function.
  */
-class FactorialTests extends FunSuiteLike {
+class FactorialTests extends AnyFunSuiteLike {
 
     import Factorial.factorial
 
