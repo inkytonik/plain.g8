@@ -17,15 +17,13 @@ variants that use the [Kiama language processing library](http://kiama.googlecod
 
 * stub `Main` object with a dummy `main` method
 
-* Mercurial `.hgignore` file
-
 * simple example of ScalaTest test
 
 ### Usage
 
 Install [sbt 1.x](http://www.scala-sbt.org).
 
-If using sbt 0.13.13 or above:
+Then:
 
     sbt new inkytonik/plain.g8
 
@@ -38,7 +36,7 @@ Run the generated project as follows:
     Factorial 4 = 24
 
 where `$organization$` and `$name$` are the values you entered when
-running the `g8` command.
+running the `sbt new` command.
 
 You can also use the `test` command to run some simple tests of the
 Factorial implementation using ScalaTest.
