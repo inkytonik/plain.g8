@@ -24,7 +24,7 @@ shellPrompt in ThisBuild := {
 
 libraryDependencies ++=
     Seq (
-        "org.scalatest" %% "scalatest" % "3.0.5" % "test"
+        "org.scalatest" %% "scalatest" % "3.1.1" % "test"
     )
 
 resolvers ++= Seq (
